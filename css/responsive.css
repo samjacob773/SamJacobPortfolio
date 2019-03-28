@@ -1,0 +1,121 @@
+/*
+/* Medium Layout: 1280px.*/
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+
+}
+/* Tablet Layout: 768px. */
+@media only screen and ( min-width: 768px) and (max-width: 991px) { 
+    .about-text{
+        margin-top: 50px;
+    }
+    .single-fact{
+        margin-bottom: 50px;
+    }
+    .single-portfolio{
+        width: 50%;
+    }
+    .single-blog{
+        margin-bottom: 50px;
+    }
+    .header-content h1{
+        font-size: 90px;
+    }
+}
+
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+    .header-content h1{
+        font-size: 50px;
+        line-height: 50px;
+        margin-bottom: 15px;
+    }
+    .header-content p{
+        font-size: 20px;
+    }
+    .section-top p{
+        font-size: 14px;
+    }
+    .section-top h4{
+        font-size: 20px;
+    }
+    .section-top em{
+        font-size: 18px;
+    }
+    .fun-fact h3, .section-top h3, .contact-bg .section-top h3{
+        font-size: 25px;
+        padding: 15px 25px;
+    }
+    .about-text{
+        margin-top: 50px;
+    }
+    .single-fact{
+        margin-bottom: 50px;
+    }
+    .portfolio-filter li{
+        display: block;
+        margin: 20px;
+    }
+    .single-portfolio{
+        width: 100%;
+    }
+    .default-btn{
+        font-size: 12px;
+        padding: 11px 30px;
+    }
+    .portfolio-hover a{
+        font-size: 50px;
+    }
+    .portfolio-hover h5 {
+        font-size: 18px;
+    }
+    .single-fact h2{
+        font-size: 38px;
+    }
+    .hire-bg h3{
+        font-size: 30px;
+    }
+    .hire-bg p{
+        font-size: 15px;
+    }
+    .single-blog{
+        margin-bottom: 50px;
+    }
+    #contactform{
+        margin-top: 50px;
+    }
+}
+
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+    .header-content h1{
+        font-size: 80px;
+        line-height: 70px;
+        margin-bottom: 15px;
+    }
+    .about-text{
+        margin-top: 50px;
+    }
+    .single-fact{
+        margin-bottom: 50px;
+    }
+    .portfolio-filter li{
+        display: inline-block;
+        margin: 10px;
+    }
+    .single-portfolio{
+        width: 100%;
+    }
+    .single-blog{
+        margin-bottom: 50px;
+    }
+    #contactform{
+        margin-top: 50px;
+    }
+}
+
+
+
+
+
+
+
